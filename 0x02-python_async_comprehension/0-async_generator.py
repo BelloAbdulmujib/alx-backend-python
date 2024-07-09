@@ -6,8 +6,7 @@ import random
 from typing import Generator
 
 
-asyncdef async_generator() -> Generator[float,
-None, None]:
+asyncdef async_generator() -> Generator[float, None, None]:
     '''Generates a sequence of 10 numbers.
     '''
     for _ in range(10):
